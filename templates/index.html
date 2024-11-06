@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+
+<h1>ELIMU APP</h1>
+<a href="{% url 'form' %}" class="btn btn-info">Form</a>
+<a href="{% url 'gallary' %}" class="btn btn-primary">Gallary</a>
+<a href="{% url 'info' %}" class="btn btn-info">Information</a>
+<a href="{% url 'table' %}" class="btn btn-primary">Table</a>
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eligendi expedita natus nemo. Consequuntur distinctio dolor eveniet fugiat incidunt, magnam nam odio quae, reprehenderit suscipit temporibus vitae! Delectus distinctio, provident?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta excepturi expedita facere fuga, ipsa iusto labore temporibus. Dolores doloribus eligendi hic iure laborum omnis tenetur velit vitae voluptate voluptatum.</p>
+
+<div class="home">
+    <img src="{% static 'assets/images/image1.jpg' %}" alt="">
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ducimus et molestias ratione veniam? Accusantium aliquam cum dolorem, eligendi ex libero, magni mollitia praesentium quia quidem repellendus repudiandae sed unde?</span><span>Aliquam aperiam dolor error harum incidunt iste, nulla, numquam officia perferendis provident tempora voluptatum. Ab accusantium blanditiis dolor, fuga ipsam labore magni, maiores, nisi nostrum officia reiciendis repellat repellendus voluptatibus?</span><span>Dolorum, enim, explicabo id itaque laborum mollitia officia pariatur perspiciatis qui quibusdam reprehenderit rerum tempora voluptatibus! Commodi dolorum ea eveniet expedita, facere inventore iure, praesentium quo recusandae sunt tempore velit.</span></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>table</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+<table>
+    
+    <tr>
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Avatar</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    
+    
+        <tr>
+        <th>1</th>
+        <th>John</th>
+        <th>Gibli</th>
+        <th><img src="{% static 'assets/images/avatar1' %}" alt=""></th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    
+        <tr>
+        <th>2</th>
+        <th>George</th>
+        <th>Gibli</th>
+        <th>Avatar</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    
+        <tr>
+        <th>3</th>
+        <th>Crystal</th>
+        <th>Gibli</th>
+        <th>Avatar</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    
+</table>
+
+</body>
+</html>

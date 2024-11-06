@@ -1,0 +1,27 @@
+h1{
+    color: crimson;
+    background-color: coral;
+    line-height: 80px;
+    text-align: center;
+    text-shadow: 3px 12px 12px white;
+}
+p{
+    font-weight: bold;
+
+}
+.home{
+    background-color: gray;
+    display: flex;
+    color: white;
+    padding: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+img{
+    margin-right: 30px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+.home:hover{
+    background-color: rosybrown;
+}
